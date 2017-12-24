@@ -1,0 +1,19 @@
+/* page navigation */
+.sample {
+ display: flex;
+ flex-direction: row;
+ margin-top: 2.0rem;
+ margin-bottom: 0.5rem;
+ font-size: small;
+ line-height: 1.2;
+}
+.sample .sample-src {
+ flex: 1 auto;
+ text-align: left;
+ padding-right:1.0rem;
+}
+.sample .sample-img {
+ flex: 1 auto;
+ text-align: left;
+ padding-left:1.0rem;
+}

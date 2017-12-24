@@ -1,0 +1,19 @@
+@startuml
+/'
+ ' Samples for Sequence Diagrams
+ '/
+!include style-all.puml
+hide footbox
+
+Alice -> Bob: Hello
+
+alt successful case
+  Bob -> Alice: Hello
+else failure case
+  Bob -> Alice: Who?
+  loop 3 times
+    Alice -> Bob: Hello again
+  end
+end
+
+@enduml

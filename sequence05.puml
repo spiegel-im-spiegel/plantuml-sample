@@ -1,0 +1,17 @@
+@startuml
+/'
+ ' Samples for Sequence Diagrams
+ '/
+!include style-all.puml
+hide footbox
+
+note left of Alice: Start "Hello"
+Alice -> Bob: Hello
+activate Bob
+hnote over Alice: Wating...
+note right of Bob: Reply "Hello"
+Alice <-- Bob: Hello
+deactivate Bob
+rnote over Alice, Bob: Complete "Hello"
+
+@enduml

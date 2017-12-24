@@ -1,1 +1,1 @@
-# plantuml-sample
+# Samples for PlantUML

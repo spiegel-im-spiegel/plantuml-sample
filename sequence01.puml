@@ -1,0 +1,15 @@
+@startuml
+/'
+ ' Samples for Sequence Diagrams
+ '/
+!include style-all.puml
+hide footbox
+
+actor Actor
+boundary Boundary
+control Control
+entity Entity
+database Database
+participant Participant
+
+@enduml

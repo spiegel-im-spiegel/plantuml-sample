@@ -1,0 +1,27 @@
+@startuml
+/'
+ ' Samples for Sequence Diagrams
+ '/
+!include style-all.puml
+hide footbox
+
+Alice -> Bob: Create Chris
+activate Bob
+create Chris
+Bob->Chris: Create
+ref over Bob, Chris : Initialize
+Alice <-- Bob: Success
+deactivate Bob
+
+|||
+
+Alice -> Bob: Destroy Chris
+activate Bob
+Bob->Chris: Destroy
+activate Chris
+Bob<--Chris: Done
+destroy Chris
+Alice <-- Bob: Success
+deactivate Bob
+
+@enduml
