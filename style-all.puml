@@ -110,21 +110,24 @@ skinparam participant {
   FontStyle normal
 }
 
+' Arrow
+skinparam arrow {
+  Color Black
+  FontColor Black
+  FontName sans-serif
+  FontSize 10
+  FontStyle normal
+  LollipopColor Black
+  MessageAlignment center
+  Thickness 1
+}
+
 ' Sequence Diagrams
 skinparam sequence {
   ' Life line
   LifeLineBackgroundColor White
   LifeLineBorderColor Black
   LifeLineBorderThickness 1
-
-  ' Arrow
-  ArrowColor Black
-  ArrowFontName sans-serif
-  ArrowFontColor Black
-  ArrowFontSize 10
-  ArrowFontStyle normal
-  ArrowThickness 1
-  MessageAlign center
 
   ' Group
   GroupBackgroundColor WhiteSmoke
@@ -150,10 +153,38 @@ skinparam sequence {
   ReferenceFontStyle normal
   ReferenceHeaderBackgroundColor WhiteSmoke
 
-
   ' Actor and Participant
   ActorBorderThickness 1.5
   ParticipantBorderThickness 1.5
+}
+
+' Class Diagrams
+skinparam class {
+  BackgroundColor White
+  HeaderBackgroundColor White
+  BorderColor Black
+  BorderThickness 1
+
+  FontColor Black
+  FontName sans-serif
+  FontSize 14
+  FontStyle normal
+
+  ' Stereotype
+  StereotypeFontColor black
+  StereotypeFontSize 10
+
+  ' Attribute
+  AttributeFontColor black
+  AttributeIconSize 0
+}
+
+' Crcled Character in Class Diagram'
+skinparam class {
+  CharacterFontColor Black
+  CharacterFontName sans-serif
+  CharacterFontSize 14
+  CharacterFontStyle normal
 }
 
 @enduml

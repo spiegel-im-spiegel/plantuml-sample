@@ -1,0 +1,20 @@
+@startuml
+/'
+ ' Samples for Class Diagrams
+ '/
+!include style-all.puml
+
+interface InterfaceClass
+abstract AbstractClass
+class ImplementClass
+class ClassName <<Stereotype>>
+
+enum Enum {
+  ONE
+  TWO
+  THREE
+}
+
+annotation Annotation
+
+@enduml

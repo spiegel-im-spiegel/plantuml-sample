@@ -1,0 +1,58 @@
+@startuml class-diagram-02a.svg
+/'
+ ' Samples for Class Diagrams
+ '/
+!include style-all.puml
+
+Class01 <|-- Class02 : Generalization
+Class03 *-- Class04 : Composition
+Class05 o-- Class06 : Aggregation
+Class07 <.. Class08 : Dependency
+Class09 <|.. Class10 : Realization
+Class11 "1" -- "1..n" Class12 : Association
+
+@enduml
+
+@startuml class-diagram-02b.svg
+/'
+ ' Samples for Class Diagrams
+ '/
+!include style-all.puml
+
+Class01 <|- Class02 : Generalization
+
+Class03 *- Class04 : Composition
+
+Class05 o- Class06 : Aggregation
+
+@enduml
+
+@startuml class-diagram-02c.svg
+/'
+ ' Samples for Class Diagrams
+ '/
+!include style-all.puml
+
+Class07 <. Class08 : Dependency
+
+Class09 <|. Class10 : Realization
+
+Class11 "1" - "1..n" Class12 : Association
+
+@enduml
+
+@startuml class-diagram-02d.svg
+/'
+ ' Samples for Class Diagrams
+ '/
+!include style-all.puml
+
+hide empty members
+hide circle
+
+ClassCenter <-left- ClassRight
+ClassCenter <-right- ClassLeft
+ClassCenter <-up- ClassDown
+ClassCenter <-down- ClassUp
+
+@enduml
