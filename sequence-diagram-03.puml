@@ -2,8 +2,6 @@
 /'
  ' Samples for Sequence Diagrams
  '/
-!include style-all.puml
-hide footbox
 
 [o->> Alice: Found Message
 Alice -> Bob: Synchronous Request

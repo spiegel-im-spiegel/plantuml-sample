@@ -1,9 +1,30 @@
-@startuml
+@startuml class-diagram-03a.png
 /'
  ' Samples for Class Diagrams
  '/
-!include style-all.puml
 
+class ClassName {
+  {field} + publicfield : String = ""
+  {field} - privatefield : int
+  {field} # protectedfield : double
+  {field} ~ protectedfieldInPackage : Object
+  {classifier} staticField : Object2
+
+  {method} + publicMethod(s : String, v : int) : type
+  {method} - privateMethod() : int
+  {method} # protectedMethod() : double
+  {method} ~ protectedMethodInPackage() : Object
+  {abstract} abstract() : void
+}
+
+@enduml
+
+@startuml class-diagram-03b.png
+/'
+ ' Samples for Class Diagrams
+ '/
+
+skinparam classAttributeIconSize 10
 class ClassName {
   {field} + publicfield : String = ""
   {field} - privatefield : int

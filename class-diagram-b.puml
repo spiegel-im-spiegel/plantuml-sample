@@ -2,7 +2,7 @@
 /'
  ' Samples for Class Diagrams
  '/
-!include style-all.puml
+ skinparam minClassWidth 130
 
 class Creator {
   {abstract} # factoryMethod() : Product

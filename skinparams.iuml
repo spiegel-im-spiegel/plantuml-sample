@@ -1,0 +1,411 @@
+/'
+ ' Style for PlantUML'
+ '/
+
+'Constant Definition
+!define FONTSERIF Noto Serif
+!define FONTSANS Noto Sans
+!define FONTMONO Inconsolata
+
+'General
+skinparam shadowing false
+skinparam handwritten false
+skinparam backgroundColor transparent
+skinparam componentStyle uml2
+skinparam dpi 300
+
+'Default'
+skinparam default{
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 14
+  FontStyle plain
+  MonospacedFontName FONTMONO
+
+  'Other Style
+  TextAlignment left
+}
+skinparam padding 2
+
+'Header
+skinparam header {
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+}
+
+'Footer
+skinparam footer {
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+}
+
+'Title
+skinparam title {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+
+  'Color
+  BackgroundColor transparent
+  BorderColor White
+  BorderRoundCorner 0
+  BorderThickness 0
+}
+
+'Arrow
+skinparam arrow {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+
+  'Color
+  Color Black
+  LollipopColor Black
+  Thickness 1
+  MessageAlignment center
+}
+
+'Node
+skinparam node {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor White
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Rectangle
+skinparam rectangle {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor White
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Folder
+skinparam folder {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor White
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Frame
+skinparam frame {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor White
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Cloud
+skinparam cloud {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor White
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Package
+skinparam package {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 10
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor White
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Note
+skinparam note {
+  'Font Style
+  FontColor Black
+  FontName FONTSERIF
+  FontSize 10
+  FontStyle plain
+
+  'Color
+  BackgroundColor LemonChiffon
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Actor
+skinparam actor {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 14
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor WhiteSmoke
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Boundary
+skinparam boundary {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 14
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor WhiteSmoke
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Control
+skinparam control {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 14
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor WhiteSmoke
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Entity
+skinparam entity {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 14
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor WhiteSmoke
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Database
+skinparam database {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 14
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor WhiteSmoke
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Participant
+skinparam participant {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 14
+  FontStyle plain
+
+  'Color
+  BackgroundColor WhiteSmoke
+  BorderColor Black
+  BorderThickness 1
+  Padding 20
+}
+
+'Sequence Diagrams
+hide footbox
+skinparam BoxPadding 10
+skinparam sequence {
+  'Box
+  BoxFontColor Black
+  BoxFontName FONTSANS
+  BoxFontSize 10
+  BoxFontStyle plain
+  BoxBackgroundColor transparent
+  BoxBorderColor Black
+
+  'Delay
+  DelayFontColor Black
+  DelayFontName FONTSANS
+  DelayFontSize 10
+  DelayFontStyle plain
+
+  'Divider
+  DividerFontColor Black
+  DividerFontName FONTSANS
+  DividerFontSize 10
+  DividerFontStyle plain
+  DividerBackgroundColor transparent
+  DividerBorderColor Gray
+  DividerBorderThickness 1
+
+  'Group
+  GroupFontColor Black
+  GroupFontName FONTSANS
+  GroupFontSize 10
+  GroupFontStyle plain
+  GroupHeaderFontColor Black
+  GroupHeaderFontName FONTSANS
+  GroupHeaderFontSize 10
+  GroupHeaderFontStyle plain
+  GroupBackgroundColor WhiteSmoke
+  GroupBodyBackgroundColor White
+  GroupBorderColor Black
+  GroupBorderThickness 1
+
+  'Life line
+  LifeLineBackgroundColor transparent
+  LifeLineBorderColor Black
+  LifeLineBorderThickness 1
+
+  'Message
+  MessageAlignment center
+  MessageTextAlignment left
+
+  'Newpage
+  NewpageSeparatorColor Gray
+
+  'Participant
+  Participant plain
+
+  'Reference
+  ReferenceFontColor Black
+  ReferenceFontName FONTSANS
+  ReferenceFontSize 10
+  ReferenceFontStyle plain
+  ReferenceBackgroundColor White
+  ReferenceHeaderBackgroundColor WhiteSmoke
+  ReferenceBorderColor Black
+  ReferenceBorderThickness 1
+  ReferenceAlignment center
+}
+
+'Class
+skinparam class {
+  'Font Style
+  FontColor Black
+  FontName FONTSANS
+  FontSize 14
+  FontStyle plain
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 12
+  StereotypeFontStyle plain
+
+  'Color
+  BackgroundColor White
+  HeaderBackgroundColor White
+  BorderColor Black
+  BorderThickness 1
+
+  'Attributions
+  AttributeFontColor Black
+  AttributeFontName FONTMONO
+  AttributeFontSize 10
+  AttributeFontStyle plain
+  AttributeIconSize 0
+}
+
+'Interface Class
+skinparam interface {
+  FontStyle italic
+}
+
+'Circled Character in Class Diagram'
+hide circle
+skinparam circled {
+  CharacterFontColor Black
+  CharacterFontName FONTMONO
+  CharacterFontSize 14
+  CharacterFontStyle plain
+  CharacterRadius 8
+}

@@ -2,7 +2,6 @@
 /'
  ' Samples for Class Diagrams
  '/
-!include style-all.puml
 
 namespace Package1 {
   class BaseClass

@@ -2,7 +2,6 @@
 /'
  ' Samples for Class Diagrams
  '/
-!include style-all.puml
 
 abstract class friends {
 }
@@ -19,6 +18,5 @@ class fennec {
 friends <|-- serval
 friends <|-- raccoon
 friends <|-- fennec
-note top of friends: みんな自由に生きている
 
 @enduml

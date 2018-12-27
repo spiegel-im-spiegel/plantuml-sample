@@ -2,8 +2,6 @@
 /'
  ' Samples for Sequence Diagrams
  '/
-!include style-all.puml
-hide footbox
 
 Alice -> Bob: Create Chris
 activate Bob

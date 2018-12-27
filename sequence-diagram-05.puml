@@ -2,8 +2,7 @@
 /'
  ' Samples for Sequence Diagrams
  '/
-!include style-all.puml
-hide footbox
+title __Sample for Sequence Diagrams__
 
 note left of Alice: Start "Hello"
 Alice -> Bob: Hello

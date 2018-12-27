@@ -2,7 +2,6 @@
 /'
  ' Samples for Class Diagrams
  '/
-!include style-all.puml
 
 class Class1
 note left of Class1: comment on left
