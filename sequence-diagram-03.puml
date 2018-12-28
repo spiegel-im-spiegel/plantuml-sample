@@ -7,7 +7,7 @@ Bob->Bob: Internal call
 activate Bob
 Bob->>o]: Lost Message
 deactivate Bob
-Alice <-- Bob: Synchronous Reply
+Alice <<-- Bob: Synchronous Reply
 deactivate Bob
 Alice -[#Red]>> Bob: Asynchronous Request
 Alice <<-[#Blue]- Bob: Asynchronous Reply

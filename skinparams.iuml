@@ -261,7 +261,7 @@ skinparam participant {
 'Sequence Diagrams
 hide footbox
 skinparam BoxPadding 10
-skinparam MaxMessageSize 60
+'skinparam MaxMessageSize 100
 skinparam sequence {
   'Actor, Boundary, Control, Entity, and Collections
   ActorBorderThickness 1
