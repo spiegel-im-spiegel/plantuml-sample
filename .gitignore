@@ -1,26 +1,13 @@
-# Folders
+# Image files
+*.png
+*.svg
+*.eps
+*.pdf
 
-#ignore thumbnails created by windows
+# Other files and Directories
 Thumbs.db
-
-#Ignore files build by Visual Studio
-*.obj
+*.sh
 *.exe
-*.pdb
-*.user
-*.aps
-*.pch
-*.vspscc
-*_i.c
-*_p.c
-*.ncb
-*.suo
-*.tlb
-*.tlh
+*.cmd
+*.bat
 *.bak
-*.cache
-*.ilk
-*.log
-*.dll
-*.lib
-*.sbr
