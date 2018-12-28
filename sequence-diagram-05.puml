@@ -1,7 +1,5 @@
 @startuml
-/'
- ' Samples for Sequence Diagrams
- '/
+
 title __Sample for Sequence Diagrams__
 
 note left of Alice: Start "Hello"

@@ -1,7 +1,4 @@
 @startuml
-/'
- ' Samples for Sequence Diagrams
- '/
 
 [o->> Alice: Found Message
 Alice -> Bob: Synchronous Request

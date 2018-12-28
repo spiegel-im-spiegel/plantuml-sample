@@ -1,7 +1,6 @@
 @startuml
-/'
- ' Samples for Sequence Diagrams
- '/
+
+== Initialization ==
 
 Alice -> Bob: Create Chris
 activate Bob

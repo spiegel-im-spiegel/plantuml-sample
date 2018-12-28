@@ -1,8 +1,6 @@
 @startuml
-/'
- ' Samples for Sequence Diagrams
- '/
 
+box "Sample for Sequence Diagram"
 Alice -> Bob: Hello
 
 alt successful case
@@ -13,5 +11,6 @@ else failure case
     Alice -> Bob: Hello again
   end
 end
+end box
 
 @enduml

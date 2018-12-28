@@ -19,7 +19,7 @@ skinparam default{
   'Font Style
   FontColor Black
   FontName FONTSANS
-  FontSize 14
+  FontSize 10
   FontStyle plain
   MonospacedFontName FONTMONO
 
@@ -44,15 +44,9 @@ skinparam footer {
   FontStyle plain
 }
 
-'Title
+'Title (inherits from Default)
 skinparam title {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
-  FontSize 10
-  FontStyle plain
-
-  'Color
+  'Border Color
   BackgroundColor transparent
   BorderColor White
   BorderRoundCorner 0
@@ -61,11 +55,8 @@ skinparam title {
 
 'Arrow
 skinparam arrow {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
-  FontSize 10
-  FontStyle plain
+  'Font Style (inherits from Default)
+  FontName FONTSERIF
 
   'Color
   Color Black
@@ -198,145 +189,104 @@ skinparam note {
 
 'Actor
 skinparam actor {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
+  'Font Style (inherits from Default)
   FontSize 14
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
 
-  'Color
+  'Border Color
   BackgroundColor WhiteSmoke
   BorderColor Black
-  BorderThickness 1
 }
 
 'Boundary
 skinparam boundary {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
+  'Font Style (inherits from Default)
   FontSize 14
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
 
-  'Color
+  'Border Color
   BackgroundColor WhiteSmoke
   BorderColor Black
-  BorderThickness 1
 }
 
 'Control
 skinparam control {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
+  'Font Style (inherits from Default)
   FontSize 14
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
 
-  'Color
+  'Border Color
   BackgroundColor WhiteSmoke
   BorderColor Black
-  BorderThickness 1
 }
 
 'Entity
 skinparam entity {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
+  'Font Style (inherits from Default)
   FontSize 14
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
 
-  'Color
+  'Border Color
   BackgroundColor WhiteSmoke
   BorderColor Black
-  BorderThickness 1
+}
+
+'Collections
+skinparam collections {
+  'Font Style (inherits from Default)
+  FontSize 14
+
+  'Border Color
+  BackgroundColor WhiteSmoke
+  BorderColor Black
 }
 
 'Database
 skinparam database {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
+  'Font Style (inherits from Default)
   FontSize 14
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
 
-  'Color
+  'Border Color
   BackgroundColor WhiteSmoke
   BorderColor Black
-  BorderThickness 1
 }
 
 'Participant
 skinparam participant {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
+  'Font Style (inherits from Default)
   FontSize 14
-  FontStyle plain
 
-  'Color
+  'Border Color and Padding
   BackgroundColor WhiteSmoke
   BorderColor Black
-  BorderThickness 1
   Padding 20
 }
 
 'Sequence Diagrams
 hide footbox
 skinparam BoxPadding 10
+skinparam MaxMessageSize 60
 skinparam sequence {
-  'Box
-  BoxFontColor Black
-  BoxFontName FONTSANS
-  BoxFontSize 10
-  BoxFontStyle plain
+  'Actor, Boundary, Control, Entity, and Collections
+  ActorBorderThickness 1
+
+  'Arrow
+  ArrowThickness 1
+
+  'Box (inherits from Default)
   BoxBackgroundColor transparent
   BoxBorderColor Black
 
-  'Delay
-  DelayFontColor Black
-  DelayFontName FONTSANS
-  DelayFontSize 10
-  DelayFontStyle plain
+  'Delay (inherits from Default)
 
-  'Divider
-  DividerFontColor Black
-  DividerFontName FONTSANS
-  DividerFontSize 10
-  DividerFontStyle plain
+  'Divider (inherits from Default)
+  'DividerFontColor Black
+  'DividerFontName FONTSANS
+  'DividerFontSize 10
+  'DividerFontStyle plain
   DividerBackgroundColor transparent
   DividerBorderColor Gray
   DividerBorderThickness 1
 
-  'Group
-  GroupFontColor Black
-  GroupFontName FONTSANS
-  GroupFontSize 10
-  GroupFontStyle plain
-  GroupHeaderFontColor Black
+  'Group (inherits from Default)
+  GroupFontName FONTSERIF
   GroupHeaderFontName FONTSANS
-  GroupHeaderFontSize 10
-  GroupHeaderFontStyle plain
   GroupBackgroundColor WhiteSmoke
   GroupBodyBackgroundColor White
   GroupBorderColor Black
@@ -356,17 +306,22 @@ skinparam sequence {
 
   'Participant
   Participant plain
+  ParticipantBorderThickness 1
 
-  'Reference
-  ReferenceFontColor Black
-  ReferenceFontName FONTSANS
-  ReferenceFontSize 10
-  ReferenceFontStyle plain
+  'Reference (inherits from Default)
   ReferenceBackgroundColor White
   ReferenceHeaderBackgroundColor WhiteSmoke
   ReferenceBorderColor Black
   ReferenceBorderThickness 1
   ReferenceAlignment center
+
+  'Stereotype (inherits to Actor, Boundary, Control, Entity, Collections, Database, and Participant)
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 12
+  StereotypeFontStyle italic
+
+  'Title (inherits from Default)
 }
 
 'Class
