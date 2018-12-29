@@ -1,13 +1,10 @@
 @startuml
-/'
- ' Samples for Class Diagrams
- '/
+
 show circle
 
-interface InterfaceClass
-abstract AbstractClass
 class ImplementClass
-class ClassName <<Stereotype>>
+abstract class AbstractClass
+interface InterfaceClass
 
 enum Enum {
   ONE
@@ -16,5 +13,6 @@ enum Enum {
 }
 
 annotation Annotation
+class CustomClass << (S,orchid) custom >>
 
 @enduml

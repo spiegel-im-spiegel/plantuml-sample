@@ -1,7 +1,4 @@
 @startuml class-diagram-03a.png
-/'
- ' Samples for Class Diagrams
- '/
 
 class ClassName {
   {field} + publicfield : String = ""
@@ -20,9 +17,6 @@ class ClassName {
 @enduml
 
 @startuml class-diagram-03b.png
-/'
- ' Samples for Class Diagrams
- '/
 
 skinparam classAttributeIconSize 10
 class ClassName {

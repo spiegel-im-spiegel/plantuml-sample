@@ -46,6 +46,9 @@ skinparam footer {
 
 'Title (inherits from Default)
 skinparam title {
+  'Font Style (inherits from Default)
+  FontSize 14
+
   'Border Color
   BackgroundColor transparent
   BorderColor White
@@ -65,114 +68,6 @@ skinparam arrow {
   MessageAlignment center
 }
 
-'Node
-skinparam node {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
-  FontSize 10
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
-
-  'Color
-  BackgroundColor White
-  BorderColor Black
-  BorderThickness 1
-}
-
-'Rectangle
-skinparam rectangle {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
-  FontSize 10
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
-
-  'Color
-  BackgroundColor White
-  BorderColor Black
-  BorderThickness 1
-}
-
-'Folder
-skinparam folder {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
-  FontSize 10
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
-
-  'Color
-  BackgroundColor White
-  BorderColor Black
-  BorderThickness 1
-}
-
-'Frame
-skinparam frame {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
-  FontSize 10
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
-
-  'Color
-  BackgroundColor White
-  BorderColor Black
-  BorderThickness 1
-}
-
-'Cloud
-skinparam cloud {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
-  FontSize 10
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
-
-  'Color
-  BackgroundColor White
-  BorderColor Black
-  BorderThickness 1
-}
-
-'Package
-skinparam package {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
-  FontSize 10
-  FontStyle plain
-  StereotypeFontColor Black
-  StereotypeFontName FONTMONO
-  StereotypeFontSize 10
-  StereotypeFontStyle plain
-
-  'Color
-  BackgroundColor White
-  BorderColor Black
-  BorderThickness 1
-}
-
 'Note
 skinparam note {
   'Font Style
@@ -183,6 +78,107 @@ skinparam note {
 
   'Color
   BackgroundColor LemonChiffon
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Node
+skinparam node {
+  'Font Style (inherits from Default)
+  FontSize 14
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 12
+  StereotypeFontStyle plain
+
+  'Border Color
+  BackgroundColor White
+  BorderColor Black
+}
+
+'Rectangle
+skinparam rectangle {
+  'Font Style (inherits from Default)
+  FontSize 14
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 12
+  StereotypeFontStyle plain
+
+  'Border Color
+  BackgroundColor White
+  BorderColor Black
+  BorderThickness 1
+}
+
+'Folder
+skinparam folder {
+  'Font Style (inherits from Default)
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Border Color
+  BackgroundColor White
+  BorderColor Black
+}
+
+'Frame
+skinparam frame {
+  'Font Style (inherits from Default)
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Border Color
+  BackgroundColor White
+  BorderColor Black
+}
+
+'Cloud
+skinparam cloud {
+  'Font Style (inherits from Default)
+  FontSize 14
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 12
+  StereotypeFontStyle plain
+
+  'Border Color
+  BackgroundColor White
+  BorderColor Black
+}
+
+'Database
+skinparam database {
+  'Font Style (inherits from Default)
+  FontSize 14
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 12
+  StereotypeFontStyle plain
+
+  'Border Color
+  BackgroundColor White
+  BorderColor Black
+}
+
+'Package (default style)
+skinparam package {
+  'Style
+  Style folder
+  TitleAlignment center
+
+  'Font Style (inherits from Default)
+  StereotypeFontColor Black
+  StereotypeFontName FONTMONO
+  StereotypeFontSize 10
+  StereotypeFontStyle plain
+
+  'Border Color
+  BackgroundColor White
   BorderColor Black
   BorderThickness 1
 }
@@ -237,16 +233,6 @@ skinparam collections {
   BorderColor Black
 }
 
-'Database
-skinparam database {
-  'Font Style (inherits from Default)
-  FontSize 14
-
-  'Border Color
-  BackgroundColor WhiteSmoke
-  BorderColor Black
-}
-
 'Participant
 skinparam participant {
   'Font Style (inherits from Default)
@@ -276,10 +262,6 @@ skinparam sequence {
   'Delay (inherits from Default)
 
   'Divider (inherits from Default)
-  'DividerFontColor Black
-  'DividerFontName FONTSANS
-  'DividerFontSize 10
-  'DividerFontStyle plain
   DividerBackgroundColor transparent
   DividerBorderColor Gray
   DividerBorderThickness 1
@@ -326,11 +308,8 @@ skinparam sequence {
 
 'Class
 skinparam class {
-  'Font Style
-  FontColor Black
-  FontName FONTSANS
+  'Font Style (inherits from Default)
   FontSize 14
-  FontStyle plain
   StereotypeFontColor Black
   StereotypeFontName FONTMONO
   StereotypeFontSize 12

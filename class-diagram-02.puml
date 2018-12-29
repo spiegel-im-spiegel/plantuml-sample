@@ -1,8 +1,6 @@
-@startuml class-diagram-02a.svg
-/'
- ' Samples for Class Diagrams
- '/
- show circle
+@startuml class-diagram-02a.png
+
+show circle
 
 Class01 <|-- Class02 : Generalization
 Class03 *-- Class04 : Composition
@@ -13,11 +11,9 @@ Class11 "1" -- "1..n" Class12 : Association
 
 @enduml
 
-@startuml class-diagram-02b.svg
-/'
- ' Samples for Class Diagrams
- '/
- show circle
+@startuml class-diagram-02b.png
+
+show circle
 
 Class01 <|- Class02 : Generalization
 
@@ -27,11 +23,9 @@ Class05 o- Class06 : Aggregation
 
 @enduml
 
-@startuml class-diagram-02c.svg
-/'
- ' Samples for Class Diagrams
- '/
- show circle
+@startuml class-diagram-02c.png
+
+show circle
 
 Class07 <. Class08 : Dependency
 
@@ -41,10 +35,7 @@ Class11 "1" - "1..n" Class12 : Association
 
 @enduml
 
-@startuml class-diagram-02d.svg
-/'
- ' Samples for Class Diagrams
- '/
+@startuml class-diagram-02d.png
 
 hide empty members
 

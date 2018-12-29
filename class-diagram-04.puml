@@ -1,7 +1,4 @@
 @startuml
-/'
- ' Samples for Class Diagrams
- '/
 
 class Class1
 note left of Class1: comment on left
