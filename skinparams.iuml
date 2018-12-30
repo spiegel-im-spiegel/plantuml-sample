@@ -301,7 +301,7 @@ skinparam sequence {
   StereotypeFontColor Black
   StereotypeFontName FONTMONO
   StereotypeFontSize 12
-  StereotypeFontStyle italic
+  StereotypeFontStyle plain
 
   'Title (inherits from Default)
 }
